@@ -60,8 +60,6 @@ If you are new to JS then you can refer to their docs.
   npm run start
   ```
 
-```
-
 - The application will by default run on port `8080` if `PORT` variable is not provided in `.env`
 
 - The Project Runs on [http://localhost:8080/](http://localhost:8080/).
@@ -84,4 +82,7 @@ Please refer to the project's style and contribution guidelines for submitting p
 3.  **Commit** changes to your own branch
 4.  **Push** your work back up to your fork
 5.  Submit a **Pull request** so that we can review your changes
+
+```
+
 ```
