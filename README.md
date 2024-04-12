@@ -1,10 +1,8 @@
 # Horizon - A Cryptocurrency app
 
-This project is
-
 ## Features
 
-- Real Time Datao
+- Real Time Data
 - Almost all currencies are available
 
 ## Tech Stack
@@ -47,12 +45,12 @@ If you are new to JS then you can refer to their docs.
   ```
 
 - In `root folder`, Change the `.env.example` file to `.env` and add the required credentials.
+
   ```bash
     PORT=
     MONGO_URI=
   ```
 
-````
   You can get the `MONGO_URI` from [MongoDB Cloud ](https://cloud.mongodb.com/) by creating an account.
 
 - Run the application by typing following command in terminal
@@ -60,7 +58,9 @@ If you are new to JS then you can refer to their docs.
   ```bash
   npm run build
   npm run start
-````
+  ```
+
+```
 
 - The application will by default run on port `8080` if `PORT` variable is not provided in `.env`
 
@@ -84,3 +84,4 @@ Please refer to the project's style and contribution guidelines for submitting p
 3.  **Commit** changes to your own branch
 4.  **Push** your work back up to your fork
 5.  Submit a **Pull request** so that we can review your changes
+```
