@@ -35,6 +35,52 @@ Refer to https://www.typescriptlang.org/ to install typescript
 
 If you are new to JS then you can refer to their docs.
 
+## Usages
+
+#### API Endpoints
+
+- `root-url`/compare-currencies
+  ##### Body
+  ```bash
+      {
+	"fromCurrency": "bitcoin",
+	"toCurrency": "basic-attention-token",
+	"date": "12-04-2024"
+    }
+    ```
+  ##### Response
+    ```bash
+    {
+    "price": 215489.59012844868
+    }
+    ```
+    
+  - `root-url`/get-company
+    ##### Body
+  ```bash
+     {
+	"currency": "bitcoin" // Possible values are only bitcoin or ethereum.
+      }
+    ```
+  ##### Response
+    ```bash
+    {
+    "companies": [
+        {
+            "name": "MicroStrategy Inc.",
+            "symbol": "NASDAQ:MSTR",
+            "country": "US",
+            "total_holdings": 174530,
+            "total_entry_value_usd": 4680000000,
+            "total_current_value_usd": 11771612423,
+            "percentage_of_total_supply": 0.831
+        },
+    .... some more objects
+    ]
+    }
+    ```
+
+
 ## Cloning and Running the Application in local
 
 - Clone the project into local.
@@ -82,7 +128,3 @@ Please refer to the project's style and contribution guidelines for submitting p
 3.  **Commit** changes to your own branch
 4.  **Push** your work back up to your fork
 5.  Submit a **Pull request** so that we can review your changes
-
-```
-
-```
